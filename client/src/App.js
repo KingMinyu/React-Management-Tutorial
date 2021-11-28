@@ -65,7 +65,7 @@ class App extends React.Component {
             </TableRow>
           </TableHead>
           <TableBody>
-          {this.state.customers ? this.state.customers.map(c => {return( <Customer key={c.id} id={c.id} image={c.image} name={c.name}birthday={c.birthday}gender={c.gender}job={c.job}/>);})  
+          {this.state.customers ? this.state.customers.map(c => {return( <Customer key={c.id} id={c.id} image={c.image} name={c.name} birthday={c.birtday} gender={c.gender} job={c.job}/>);})  
           :
             <tableRow>
               <TableCell colSpan="6" align="center">
